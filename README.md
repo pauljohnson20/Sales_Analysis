@@ -4,7 +4,8 @@
 - [Data Source](#data-source)
 - [Tools Used](#tools-used)
 - [Data Cleaning (in Excel & Power BI)](#data-cleaning-in-excel--power-bi)
-  - [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Exploratory Data Analysis](#exploratory-data-analysis-eda)
+- [DAX Calculations](dax-for-rfm-and-cohort-analysis)
 
 ### Project Overview:
 This project presents an interactive Power BI dashboard for analyzing e-commerce sales data. It includes sales performance, customer behavior analysis through cohort and RFM segmentation. Insights are visualized to help businesses improve retention and identify high-value customers.
