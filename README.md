@@ -3,7 +3,7 @@
 This project presents an interactive Power BI dashboard for analyzing e-commerce sales data. It includes sales performance, customer behavior analysis through cohort and RFM segmentation. Insights are visualized to help businesses improve retention and identify high-value customers.
 
 ### Data Source
-E-commerce sales dataset (Excel format)
+E-commerce sales dataset: [Download here](https://github.com/user-attachments/files/19825605/Superstore.xls)
 
 ### Tools Used
   1. Microsoft Excel
