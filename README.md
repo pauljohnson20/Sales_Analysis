@@ -1,29 +1,36 @@
 # E-Commerce Sales, Cohort & RFM Analysis Dashboard (Power BI)
-### Project Overview
+### Table of Contents:
+- [Project Overview](#project-overview)
+- [Data Source](#data-source)
+- [Tools Used](#tools-used)
+- [Data Cleaning (in Excel & Power BI)](#data-cleaning-in-excel--power-bi)
+  - [Exploratory Data Analysis](#exploratory-data-analysis)
+
+### Project Overview:
 This project presents an interactive Power BI dashboard for analyzing e-commerce sales data. It includes sales performance, customer behavior analysis through cohort and RFM segmentation. Insights are visualized to help businesses improve retention and identify high-value customers.
 
-### Data Source
+### Data Source:
 E-commerce sales dataset: [Download here](https://github.com/user-attachments/files/19825605/Superstore.xls)
 
-### Tools Used
+### Tools Used:
   1. Microsoft Excel
   2. Power BI
 
-### Data Cleaning (in Excel & Power BI)
+### Data Cleaning (in Excel & Power BI):
   1. Removed irrelevant columns for optimization
   2. Handled missing values in key fields
   3. Corrected data types for dates and numeric fields
   4. Standardized categorical values (e.g., region, ship mode)
   5. Created new calculated columns (e.g., Year, Month, Customer Age)
 
-### Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis (EDA):
   1. Univariate analysis for sales, profit, orders
   2. Bivariate analysis for region vs. sales/profit
   3. Time series breakdown for YoY comparison
   4. Product-category level performance
   5. State-wise contribution to profit and sales
 
-### DAX for RFM and Cohort Analysis
+### DAX for RFM and Cohort Analysis:
 
   1. Customer Segmentation – RFM Logic (DAX)
 
@@ -90,6 +97,17 @@ E-commerce sales dataset: [Download here](https://github.com/user-attachments/fi
             FirstQuarterCustomers  // Denominator: Customers in the first quarter
         )
     )
+
+### Power BI Optimization:
+To improve the performance and efficiency of my Power BI report, I applied the following best practices:
+  1. **Used a star schema:** Structured the data model with fact and dimension tables instead of flat tables to reduce redundancy and optimize query performance.
+  2. **Removed unnecessary columns and rows:** Imported only the required columns and filtered out irrelevant rows to minimize memory usage and improve refresh speed.
+  3. **Turned off Auto Date/Time:** Disabled the Auto Date/Time feature to prevent Power BI from creating unnecessary hidden date tables that impact performance.
+  4. **Optimized DAX by using measures:** Replaced calculated columns with DAX measures wherever possible to improve calculation performance and reduce memory load.
+
+Snap of Schema
+
+![Image](https://github.com/user-attachments/assets/7d13f3d8-1df6-4e79-9595-c2491885084f)
 
 ### Data Analysis (Power BI Visuals):
 #### Sales Dashboard (Page 1):
