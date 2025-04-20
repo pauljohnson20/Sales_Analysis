@@ -23,33 +23,6 @@ E-commerce sales dataset (Excel format)
   4. Product-category level performance
   5. State-wise contribution to profit and sales
 
-### Data Analysis (Power BI Visuals)
-#### Sales Dashboard (Page 1)
-  1. Sales, Profit, and Return comparison (Current vs Previous Year) using KPI cards
-  2. Slicers for dynamic filtering (State, Region, Category, Ship Mode)
-  3. Top-performing products by profit (bar chart)
-  4. Sales trend vs previous year (line chart)
-  5. Geo map for visualizing Profit, Orders, and Customer Count by location
-
-#### Cohort & RFM Analysis (Page 2)
-  1. Cohort Analysis Matrix: Quarterly new customer counts and number of customers retention
-  2. Retention Matrix: Percentage of customers retained quarter over quarter
-  3. RFM Analysis: Treemap showing 10 customer segments based on RFM scores
-
-### Results / Findings
-  1. Most sales and profits came from the Western and Central regions
-  2. Office Supplies had high sales but relatively low profit margins
-  3. High-value customers fall under "Champions" and "Loyal Customers" in RFM
-  4. Customer retention drops sharply after the first 3 months
-  5. Certain states have high return rates, affecting overall profit
-
-### Recommendations
-  1. Focus retention efforts within the first 90 days of customer onboarding
-  2. Launch loyalty programs targeted at "Loyal Customers" and "Potential Loyalists"
-  3. Improve return policy or product quality in high-return states
-  4. Optimize inventory for high-profit products and ship modes
-  5. Tailor marketing campaigns by region and customer segment
-
 ### DAX for RFM and Cohort Analysis
 
   1. Customer Segmentation – RFM Logic (DAX)
@@ -117,3 +90,43 @@ E-commerce sales dataset (Excel format)
             FirstQuarterCustomers  // Denominator: Customers in the first quarter
         )
     )
+
+### Data Analysis (Power BI Visuals):
+#### Sales Dashboard (Page 1):
+  1. Sales, Profit, and Return comparison (Current vs Previous Year) using KPI cards
+  2. Slicers for dynamic filtering (State, Region, Category, Ship Mode)
+  3. Top-performing products by profit (bar chart)
+  4. Sales trend vs previous year (line chart)
+  5. Geo map for visualizing Profit, Orders, and Customer Count by location
+
+Snap of Sales Dashboard
+
+![Image](https://github.com/user-attachments/assets/b8296dbd-f119-4f54-8ed6-fdb1cb2a57e6)
+
+#### RFM Analysis & Cohort (Page 2):
+  1. Cohort Analysis Matrix: Quarterly new customer counts and number of customers retention
+  2. Retention Matrix: Percentage of customers retained quarter over quarter
+  3. RFM Analysis: Treemap showing 10 customer segments based on RFM scores
+
+Snap of RFM & Cohort Analysis
+
+![Image](https://github.com/user-attachments/assets/68cd8002-9481-4827-a859-09beb8a190ae)
+
+### Results / Findings:
+  1. Most sales and profits came from the Western and Eastern regions
+  2. Sub-categories like Tables, Bookcases, and Supplies consistently generate losses.
+  3. Corporate and Home Office segments show low Sales/Profit ratio due to a high volume of return orders.
+  4. While the overall profit from 49 states is $286,000, five states — North Carolina, Illinois, Pennsylvania, Ohio, and Texas — contribute to a loss of $78,400 which is around 30% Loss.
+  5. Approximately 30% of customers fall under Lapsed, Hibernating, and About to Sleep segments in RFM analysis.
+  6. Only around 20% of customers are retained quarter-over-quarter, indicating low long-term engagement.
+
+### Recommendations:
+  1. **Launch loyalty programs** targeted at "Loyal Customers" and "Potential Loyalists" to nurture them into "VIP Customers".
+  2. **Leverage RFM segments to design personalized offers** for VIP and Loyal Customers to encourage repeat purchases.
+  3. **Introduce customer feedback loops** for "At Risk", "About to Sleep", and "Hibernating" segments to understand reasons for disengagement.
+  4. **Run limited-time promotions** targeting “Potential Loyal Customers” and "Need Attention" segments to push them into higher-value groups.
+  5. **Discontinue or reevaluate underperforming sub-categories** like Tables and Bookcases; consider bundling, discounting, or replacing with better-performing items.
+  6. **Investigate reasons for high return rates** in Corporate and Home Office segments; improve product information, quality checks, and return handling.
+  7. **Develop targeted recovery strategies for loss-making states** through localized campaigns, offers, and customer engagement efforts.
+  8. **Re-engage dormant customers** (Lapsed, Hibernating, About to Sleep) via personalized reactivation emails, surveys, or special win-back incentives.
+
