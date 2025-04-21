@@ -8,7 +8,7 @@
 - [DAX Calculations](#dax-for-rfm-and-cohort-analysis)
 - [Power BI Optimization](#power-bi-optimization)
 - [Data Analysis (Power BI Visuals)](#data-analysis-power-bi-visuals)
-- [Results / Findings](#results-findings)
+- [Results / Findings](#results--findings)
 - [Recommendations](#recommendations)
 
 ### Project Overview:
