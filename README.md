@@ -6,7 +6,7 @@
 - [Tools Used](#tools-used)
 - [Data Understanding](#data-understanding)
 - [KPIs](#kpis)
-- [Data Cleaning (in Excel & Power BI)](#data-cleaning-in-excel--power-bi)
+- [Data Cleaning](#data-cleaning-in-excel--power-bi)
 - [Exploratory Data Analysis](#exploratory-data-analysis-eda)
 - [DAX Calculations](#dax-for-rfm-and-cohort-analysis)
 - [Power BI Optimization](#power-bi-optimization)
