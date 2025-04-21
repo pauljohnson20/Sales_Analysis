@@ -34,14 +34,14 @@ E-commerce sales dataset: [Download here](https://github.com/user-attachments/fi
 The dataset is provided in a single Excel file with three sheets, containing information related to e-commerce operations:
 1. Orders Sheet
   Contains 10,194 rows and 21 columns
-  - Includes details on orders, customers, products, sales, and profits
-  - Key fields: Order ID, Order Date, Customer ID, Product Name, Sales, Profit, Region, Category, Segment, etc.
+    - Includes details on orders, customers, products, sales, and profits
+    - Key fields: Order ID, Order Date, Customer ID, Product Name, Sales, Profit, Region, Category, Segment, etc.
 2. Returns Sheet
-  - Contains a list of Order IDs that were returned
-  - Used to analyze product return patterns and their impact on profit
+    - Contains a list of Order IDs that were returned
+    - Used to analyze product return patterns and their impact on profit
 3. People Sheet
-  - Lists Regional Managers assigned to each region
-  - Helps in implementing row-level security by mapping Regional Managers to their respective regions, allowing controlled access to data based on user roles.
+    - Lists Regional Managers assigned to each region
+    - Helps in implementing row-level security by mapping Regional Managers to their respective regions, allowing controlled access to data based on user roles.
 These three sheets together support comprehensive analysis, including sales trends, returns impact, customer behavior, and regional performance.
 
 ### KPIs:
