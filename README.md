@@ -54,7 +54,7 @@ These three sheets together support comprehensive analysis, including sales tren
   7. Implementing row-level security by mapping Regional Managers to their respective regions
   8. Which shipping modes have high or low profitability?
   9. How does profit vary across customer segments, states, regions, and product categories?
-  10. Interact dashboard [View Dashboard](https://github.com/user-attachments/assets/b8296dbd-f119-4f54-8ed6-fdb1cb2a57e6)
+  10. Interactive dashboard [View Dashboard](https://github.com/user-attachments/assets/b8296dbd-f119-4f54-8ed6-fdb1cb2a57e6)
 
 ### Data Cleaning (in Excel & Power BI):
   1. Removed irrelevant columns for optimization
