@@ -1,8 +1,10 @@
 # E-Commerce Sales, Cohort & RFM Analysis Dashboard (Power BI)
 ### Table of Contents:
 - [Project Overview](#project-overview)
+- [Business Objective](#business-objective)
 - [Data Source](#data-source)
 - [Tools Used](#tools-used)
+- [Data Understanding](#data-understanding)
 - [KPIs](#kpis)
 - [Data Cleaning (in Excel & Power BI)](#data-cleaning-in-excel--power-bi)
 - [Exploratory Data Analysis](#exploratory-data-analysis-eda)
@@ -11,9 +13,15 @@
 - [Data Analysis (Power BI Visuals)](#data-analysis-power-bi-visuals)
 - [Project Insights](#project-insights)
 - [Recommendations](#recommendations)
+- [Screenshot](#screenshot)
+- [How to Use This Report](#how-to-use-this-report)
+- [Contact](#contact)
 
 ### Project Overview:
 This project presents an interactive Power BI dashboard for analyzing e-commerce sales data. It includes sales performance, customer behavior analysis through cohort and RFM segmentation. Insights are visualized to help businesses improve retention and identify high-value customers.
+
+### Business Objective:
+The goal of this project is to analyze e-commerce sales data to uncover insights that can improve profitability, customer retention, and operational efficiency. This includes identifying high-performing products and regions, understanding customer behavior through RFM and cohort analysis, and recommending actions to reduce returns and boost customer loyalty.
 
 ### Data Source:
 E-commerce sales dataset: [Download here](https://github.com/user-attachments/files/19825605/Superstore.xls)
@@ -22,6 +30,20 @@ E-commerce sales dataset: [Download here](https://github.com/user-attachments/fi
   1. Microsoft Excel
   2. Power BI
 
+### Data Understanding:
+The dataset is provided in a single Excel file with three sheets, containing information related to e-commerce operations:
+1. Orders Sheet
+  Contains 10,194 rows and 21 columns
+  - Includes details on orders, customers, products, sales, and profits
+  - Key fields: Order ID, Order Date, Customer ID, Product Name, Sales, Profit, Region, Category, Segment, etc.
+2. Returns Sheet
+  - Contains a list of Order IDs that were returned
+  - Used to analyze product return patterns and their impact on profit
+3. People Sheet
+  - Lists Regional Managers assigned to each region
+  - Helps in implementing row-level security by mapping Regional Managers to their respective regions, allowing controlled access to data based on user roles.
+These three sheets together support comprehensive analysis, including sales trends, returns impact, customer behavior, and regional performance.
+
 ### KPIs:
   1. What are the total sales, profit, and return values compared to the previous year?
   2. How does the sales trend compare with the previous year?
@@ -29,7 +51,7 @@ E-commerce sales dataset: [Download here](https://github.com/user-attachments/fi
   4. Which states are generating the highest profits?
   5. What is the customer retention rate each quarter based on cohort analysis?
   6. How many customers fall into the Valuable (VIP), Loyal, and At-Risk segments based on RFM analysis?
-  7. What percentage of customers are in 'Lapsed', 'At-Risk', or 'Hibernating' RFM segments?
+  7. Implementing row-level security by mapping Regional Managers to their respective regions
   8. Which shipping modes have high or low profitability?
   9. How does profit vary across customer segments, states, regions, and product categories?
   10. Interact dashboard [View Dashboard](#data-analysis-power-bi-visuals)
@@ -123,10 +145,6 @@ To improve the performance and efficiency of my Power BI report, I applied the f
   3. **Turned off Auto Date/Time:** Disabled the Auto Date/Time feature to prevent Power BI from creating unnecessary hidden date tables that impact performance.
   4. **Optimized DAX by using measures:** Replaced calculated columns with DAX measures wherever possible to improve calculation performance and reduce memory load.
 
-Snap of Schema
-
-![Image](https://github.com/user-attachments/assets/7d13f3d8-1df6-4e79-9595-c2491885084f)
-
 ### Data Analysis (Power BI Visuals):
 #### Sales Dashboard (Page 1):
   1. Sales, Profit, and Return comparison (Current vs Previous Year) using KPI cards
@@ -152,7 +170,7 @@ Snap of RFM & Cohort Analysis
   1. Most sales and profits came from the Western and Eastern regions
   2. Sub-categories like Tables, Bookcases, and Supplies consistently generate losses.
   3. Corporate and Home Office segments show low Sales/Profit ratio due to a high volume of return orders.
-  4. While the overall profit from 49 states is $286,000, five states — North Carolina, Illinois, Pennsylvania, Ohio, and Texas — contribute to a loss of $78,400 which is around 30% Loss.
+  4. While the overall profit from 49 states is $286,000, five states — California, New York, Washington, Michigan and Virginia — contribute to a profit of $226,000 which is around 80% profit.
   5. Approximately 30% of customers fall under Lapsed, Hibernating, and About to Sleep segments in RFM analysis.
   6. Only around 20% of customers are retained quarter-over-quarter, indicating low long-term engagement.
 
@@ -166,3 +184,34 @@ Snap of RFM & Cohort Analysis
   7. **Develop targeted recovery strategies for loss-making states** through localized campaigns, offers, and customer engagement efforts.
   8. **Re-engage dormant customers** (Lapsed, Hibernating, About to Sleep) via personalized reactivation emails, surveys, or special win-back incentives.
 
+### Screenshot:
+  1. Snap of Row-Level_Security for each Regional Manager
+
+![Image](https://github.com/user-attachments/assets/06146a3d-0af7-41f9-b3d3-87f3ddb1e44f)
+
+  2. Snap of Star Schema
+
+![Image](https://github.com/user-attachments/assets/7d13f3d8-1df6-4e79-9595-c2491885084f)
+
+### How to Use This Report:
+  1. Select Filters and Parameters:
+      - Use the slicers on the dashboard to filter by:
+        - Year and Segment to compare data over time or by customer groups.
+      - Additionally, use the parameters to drill down into:
+        - State, Region, Category, and Ship Mode to gain deeper insights into specific data points.
+  2. Analyze Key Metrics:
+      - Review the KPIs and charts for key metrics like sales, profit and returns. This helps you quickly understand the overall business performance.
+  3. Explore Trends and Patterns:
+      - Explore the trends in sales, profit, and customer behavior over time using the line charts and bar charts. Compare current and previous periods to identify growth opportunities.
+  4. Segment Analysis:
+      - Use customer segmentation (RFM and cohort analysis) to identify valuable, loyal, or at-risk customers, and tailor marketing strategies accordingly.
+  5. Regional Insights:
+      - Use the map and region-specific filters to analyze performance across different geographic areas, and assess which regions are most profitable or require improvement.
+  6. Access Control with Row-Level Security:
+      - If you’re a Regional Manager, the report will automatically filter the data to show only your assigned region. This ensures that each user only sees data relevant to their role.
+    
+### Contact:
+For further information or inquiries regarding this project, feel free to reach out:
+  - Email     : [Click Here](pauljohnson2094@gmail.com)
+  - LinkedIn  : [Click Here](www.linkedin.com/in/pauljohnson2094)
+  - GitHub    : [Click Here](https://github.com/pauljohnson20)
