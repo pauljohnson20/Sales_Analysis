@@ -212,6 +212,6 @@ Snap of RFM & Cohort Analysis
     
 ### Contact:
 For further information or inquiries regarding this project, feel free to reach out:
-  - Email     : [Click Here](pauljohnson2094@gmail.com)
-  - LinkedIn  : [Click Here](www.linkedin.com/in/pauljohnson2094)
-  - GitHub    : [Click Here](https://github.com/pauljohnson20)
+  - Email     : pauljohnson2094@gmail.com
+  - LinkedIn  : www.linkedin.com/in/pauljohnson2094
+  - GitHub    : https://github.com/pauljohnson20
