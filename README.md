@@ -3,12 +3,13 @@
 - [Project Overview](#project-overview)
 - [Data Source](#data-source)
 - [Tools Used](#tools-used)
+- [KPIs](#kpis)
 - [Data Cleaning (in Excel & Power BI)](#data-cleaning-in-excel--power-bi)
 - [Exploratory Data Analysis](#exploratory-data-analysis-eda)
 - [DAX Calculations](#dax-for-rfm-and-cohort-analysis)
 - [Power BI Optimization](#power-bi-optimization)
 - [Data Analysis (Power BI Visuals)](#data-analysis-power-bi-visuals)
-- [Results / Findings](#results--findings)
+- [Project Insights](#project-insights)
 - [Recommendations](#recommendations)
 
 ### Project Overview:
@@ -20,6 +21,18 @@ E-commerce sales dataset: [Download here](https://github.com/user-attachments/fi
 ### Tools Used:
   1. Microsoft Excel
   2. Power BI
+
+### KPIs:
+  1. What are the total sales, profit, and return values compared to the previous year?
+  2. How does the sales trend compare with the previous year?
+  3. Which product sub-categories are making losses or have the lowest profit margins?
+  4. Which states are generating the highest profits?
+  5. What is the customer retention rate each quarter based on cohort analysis?
+  6. How many customers fall into the Valuable (VIP), Loyal, and At-Risk segments based on RFM analysis?
+  7. What percentage of customers are in 'Lapsed', 'At-Risk', or 'Hibernating' RFM segments?
+  8. Which shipping modes have high or low profitability?
+  9. How does profit vary across customer segments, states, regions, and product categories?
+  10. Interact dashboard [View Dashboard](#data-analysis-power-bi-visuals)
 
 ### Data Cleaning (in Excel & Power BI):
   1. Removed irrelevant columns for optimization
@@ -135,7 +148,7 @@ Snap of RFM & Cohort Analysis
 
 ![Image](https://github.com/user-attachments/assets/68cd8002-9481-4827-a859-09beb8a190ae)
 
-### Results / Findings:
+### Project Insights:
   1. Most sales and profits came from the Western and Eastern regions
   2. Sub-categories like Tables, Bookcases, and Supplies consistently generate losses.
   3. Corporate and Home Office segments show low Sales/Profit ratio due to a high volume of return orders.
