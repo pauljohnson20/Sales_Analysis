@@ -11,9 +11,9 @@
 - [DAX Calculations](#dax-for-rfm-and-cohort-analysis)
 - [Power BI Optimization](#power-bi-optimization)
 - [Data Analysis (Power BI Visuals)](#data-analysis-power-bi-visuals)
+- [Screenshot](#screenshot)
 - [Project Insights](#project-insights)
 - [Recommendations](#recommendations)
-- [Screenshot](#screenshot)
 - [How to Use This Report](#how-to-use-this-report)
 - [Contact](#contact)
 
@@ -166,6 +166,15 @@ Snap of RFM & Cohort Analysis
 
 ![Image](https://github.com/user-attachments/assets/68cd8002-9481-4827-a859-09beb8a190ae)
 
+### Screenshot:
+  1. Snap of Row-Level_Security for each Regional Manager
+
+![Image](https://github.com/user-attachments/assets/06146a3d-0af7-41f9-b3d3-87f3ddb1e44f)
+
+  2. Snap of Star Schema
+
+![Image](https://github.com/user-attachments/assets/7d13f3d8-1df6-4e79-9595-c2491885084f)
+
 ### Project Insights:
   1. Most sales and profits came from the Western and Eastern regions
   2. Sub-categories like Tables, Bookcases, and Supplies consistently generate losses.
@@ -183,15 +192,6 @@ Snap of RFM & Cohort Analysis
   6. **Investigate reasons for high return rates** in Corporate and Home Office segments; improve product information, quality checks, and return handling.
   7. **Develop targeted recovery strategies for loss-making states** through localized campaigns, offers, and customer engagement efforts.
   8. **Re-engage dormant customers** (Lapsed, Hibernating, About to Sleep) via personalized reactivation emails, surveys, or special win-back incentives.
-
-### Screenshot:
-  1. Snap of Row-Level_Security for each Regional Manager
-
-![Image](https://github.com/user-attachments/assets/06146a3d-0af7-41f9-b3d3-87f3ddb1e44f)
-
-  2. Snap of Star Schema
-
-![Image](https://github.com/user-attachments/assets/7d13f3d8-1df6-4e79-9595-c2491885084f)
 
 ### How to Use This Report:
   1. Select Filters and Parameters:
